@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="shortcut icon" href="static/img/channel-logo.webp" type="image/x-icon">
+  <title>Learn to code online - CodeWithHarry</title>
+</head>
+
+<body>
+  <header class="shadow-md sticky top-0 z-50 bg-white" >
+    <nav>
+      <div class='flex items-center justify-between py-6 md:px-6 px-3 '>
+        <div class="flex items-center ">
+          <a href="" class="text-purple-700 font-bold text-xl">CodeWithHarry</a>
+          <div class="space-x-1 flex items-center lg:hidden">
+            <button id="mini-menu-btn" class="flex"><span for=""
+                class="capitalize ml-2 text-purple-700 font-semibold">menu</span><img src="static/img/down arrow.png"
+                alt="small-menu"></button>
+            <button class=" "><img class="box-border w-full h-full" src="static/img/night.png" alt="dark mode"></button>
+          </div>
+        </div>
+
+        <ul class=" hidden items-center lg:flex">
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700" href="/">home</a>
+          </li>
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700"
+              href="courses.html">course</a></li>
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700"
+              href="tutorial.html">tutorial</a></li>
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700" href="blog.html">blog</a>
+          </li>
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700" href="note.html">notes</a></li>
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700" href="contact.html">contact</a></li>
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700" href="">my gear</a></li>
+          <li><a class=" pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700" href="">work with us</a>
+          </li>
+          <!-- buttons -->
+          <div class="flex items-center">
+            <button class=" mx-2" href=""><img class=" box-border w-full h-full" src="static/img/night.png"
+                alt="dark mode"></button>
+            <button
+              class="py-2 px-3 mr-2 text-sm bg-purple-700 text-center rounded-lg capitalize text-white hover:bg-purple-800">login</button>
+            <button
+              class="py-2 px-3 mr-2 text-sm bg-purple-700 text-center rounded-lg capitalize text-white hover:bg-purple-800">signup</button>
+          </div>
+        </ul>
+        <div class="items-center sm:flex lg:hidden">
+          <button
+            class="py-2 px-3 mr-2 text-sm bg-purple-700 text-center rounded-lg capitalize text-white hover:bg-purple-800">login</button>
+        </div>
+      </div>
+      <!-- floationg menu -->
+      <div id="mini-menu"
+        class="absolute z-40 flex flex-col justify-center items-center top-[9.3rem] capitalize list-none py-2 space-y-3 bg-purple-100 w-full lg:hidden text-purple-500 font-bold">
+        <li><a href="index.html">home</a></li>
+        <li><a href="courses.html">course</a></li>
+        <details class="text-center">
+          <summary>tutorial</summary>
+          <ul class="bg-purple-200 w-screen font-semibold text-sm">
+
+            <li class="border cursor-pointer py-1"><a class="" href="note.html"></a>HTML</li>
+            <li class="border cursor-pointer py-1"><a class="" href="note.html"></a>css</li>
+            <li class="border cursor-pointer py-1"><a class="" href="note.html"></a>js</li>
+            <li class="border cursor-pointer py-1"><a class="" href="note.html"></a>c</li>
+            <li class="border cursor-pointer py-1"><a class="" href="note.html"></a>C++</li>
+            <li class="border cursor-pointer py-1"><a class="" href="note.html"></a>java</li>
+            <li class="border cursor-pointer py-1"><a class="" href="note.html"></a>python</li>
+            <li class="border cursor-pointer py-1"><a class="" href="note.html"></a>PHP</li>
+            <li class="border cursor-pointer py-1"><a class="" href="note.html"></a>react</li>
+          </ul>
+        </details>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="">notes</a></li>
+        <li><a href="">contact</a></li>
+        <li><a href="">my gear</a></li>
+        <li><a href="">work with us</a></li>
+
+      </div>
+      <hr>
+      <div class="py-4 px-6 flex items-center justify-between">
+        <span class="cursor-pointer"><img class="h-6 w-6" src="static/img/homelogo.png" alt="home "></span>
+        <ul class=" space-x-6 justify-center items-center hidden md:flex">
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="note.html">html</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="note.html">css</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="note.html">js</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="note.html">c</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="note.html">c++</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="note.html">Java</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="note.html">python</a>
+          <li>
+          <li><a
+              class="uppercase font-semibold -ml-5 text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="note.html">php</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="note.html">react js</a></li>
+        </ul>
+        <span class="cursor-pointer"><img class="h-6 w-6" src="static/img/search.png" alt="search"></span>
+      </div>
+    </nav>
+  </header>
+  <main class="overflow-hidden">
+    <section class="lg:grid lg:grid-cols-2 max-h-96 m-auto lg:w-[1020px] xl:w-[1250px] overflow-hidden">
+      <div
+        class="flex flex-col items-center px-8 py-16 lg:py-0 space-y-3 text-center justify-center lg:text-left lg:pl-12 lg:items-start">
+        <h1 class="text-3xl font-semibold text-gray-800 md:text-4xl  xl:flex">Welcome to
+          <span class="text-purple-700 dark:text-purple-600 lg:block -mb-3 xl:ml-2">CodeWithHarry</span></h1>
+        <!-- text-animation -->
+        <section class="flex font-semibold text-2xl"><span>Learn</span><span id="text-input" readonly
+            class="ml-2 text-purple-700 disabled capitalize outline-none w-fit"></span><span class="animate-pulse"
+            style="animation-duration: .5s;">|</span></section>
+
+        <p class=" text-gray-500 text-sm sm:text-base w-[90%] lg:w-full ">Confused on which course to take? I have got
+          you covered. Browse courses and find out the best course for you. Its free! Code With Harry is my attempt to
+          teach basics and those coding techniques to people in short time which took me ages to learn.</p>
+        <span>
+          <button
+            class="text-xs text-center py-2 mx-1 px-3 bg-gray-900 capitalize text-white rounded-md hover:bg-gray-800">free
+            courses</button>
+          <button class="text-xs text-center py-2 mx-1 px-3 bg-gray-300 capitalize rounded-md hover:bg-gray-400">explore
+            blog</button>
+        </span>
+      </div>
+      <img class="hidden lg:block" style="clip-path:polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%)"
+        src="static/img/home-bg.avif" alt="home-bg">
+
+    </section>
+    <h2 class="text-3xl text-gray-900 text-center capitalize my-10">recommended courses</h2>
+    <!-- cards -->
+    <section class="text-gray-900 px-10 ">
+      <div
+        class="cardsholder flex m-auto items-center space-y-8 flex-col max-w-[26rem] md:space-y-0 md:max-w-full md:flex-row md:justify-evenly">
+
+        <div class="card flex flex-col  sm:mx-5 overflow-hidden rounded-xl shadow-xl">
+          <div>
+            <img class="box-border rounded-xl w-full" src="static/img/py.webp" alt="logo-banner">
+          </div>
+          <div class="p-4 pr-7">
+            <h2 class="capitalize text-sm">free course</h1>
+              <h1 class="text-lg pb-3">Lorem ipsum dolor sit amet.</h1>
+              <p class="text-gray-700 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, aut. Quod illum
+                voluptatum neque accusantium ratione pariatur ipsa vel maxime debitis, nihil magni voluptas distinctio,
+                ullam ipsam consequatur repellat laborum.</p>
+              <button
+                class="bg-purple-700 capitalize font-semibold text-white px-2 py-2 mt-7 text-sm rounded-full hover:bg-purple-600">start
+                watching</button>
+          </div>
+        </div>
+        <div class="card flex flex-col sm:mx-5  overflow-hidden rounded-xl shadow-xl">
+          <div>
+            <img class="box-border rounded-xl w-full" src="static/img/js.webp" alt="logo-banner">
+          </div>
+          <div class="p-4 pr-7">
+            <h2 class="capitalize text-sm">free course</h1>
+              <h1 class="text-lg pb-3">Lorem ipsum dolor sit amet.</h1>
+              <p class="text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, aut. Quod illum
+                voluptatum neque accusantium ratione pariatur ipsa vel maxime debitis, nihil magni voluptas distinctio,
+                ullam ipsam consequatur repellat laborum.</p>
+              <button
+                class="bg-purple-700 capitalize font-semibold text-white px-2 py-2 mt-7 text-sm rounded-full hover:bg-purple-600">start
+                watching</button>
+          </div>
+        </div>
+        <div class="card flex flex-col sm:mx-5  overflow-hidden rounded-xl shadow-xl">
+          <div>
+            <img class="box-border rounded-xl w-full" src="static/img/react.webp" alt="logo-banner">
+          </div>
+          <div class="p-4 pr-7">
+            <h2 class="capitalize text-sm">free course</h1>
+              <h1 class="text-lg pb-3">Lorem ipsum dolor sit amet.</h1>
+              <p class="text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, aut. Quod illum
+                voluptatum neque accusantium ratione pariatur ipsa vel maxime debitis, nihil magni voluptas distinctio,
+                ullam ipsam consequatur repellat laborum.</p>
+              <button
+                class="bg-purple-700 capitalize font-semibold text-white px-2 py-2 mt-7 text-sm rounded-full hover:bg-purple-600">start
+                watching</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- testimonials -->
+    <section class="text-gray-600 body-font px-10">
+      <div class="container px-5 py-20 pb-10 mx-auto">
+        <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Testimonials</h1>
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 md:w-1/2 w-full">
+            <div class="h-full bg-gray-100 p-8 rounded">
+              <svg xmlns="" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                </path>
+              </svg>
+              <p class="leading-relaxed mb-6">I don't have words to thank this man, I'm really grateful to have this
+                channel and website in my daily routine. If you're a mere beginner, then you can trust this guy and can
+                put your time into his content. I can assure you that it'll be worth it.</p>
+              <a class="inline-flex items-center">
+                <img alt="testimonial" src="https://dummyimage.com/106x106"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-gray-900">Mohit Kumar</span>
+                  <span class="text-gray-500 text-sm capitalize">Web developer</span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/2 w-full">
+            <div class="h-full bg-gray-100 p-8 rounded">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4"
+                viewBox="0 0 975.036 975.036">
+                <path
+                  d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                </path>
+              </svg>
+              <p class="leading-relaxed mb-6">For everyone who wants to level up their #Coding and #Dev skills -
+                seriously, this channel is for you! Both basic and advanced stacks are covered on this channel, and one
+                can learn according to his skill levels. And the icing on the cake is, everything is available for free.
+              </p>
+              <a class="inline-flex items-center">
+                <img alt="testimonial" src="https://dummyimage.com/107x107"
+                  class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-gray-900">Rakesh Shetty</span>
+                  <span class="text-gray-500 text-sm capitalize">web developer</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="static/img/channel-logo.webp" alt="channel-logo">
+        <span class="ml-3 text-xl">CodeWithHarry</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Copyright ©
+        2022 CodeWithHarry.com
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+
+    <script type="text/javascript" src="static/js/main.js"></script>
+    <script type="text/javascript" src="static/js/menu.js"></script>
+  </footer>
+
+</body>
+
+</html>

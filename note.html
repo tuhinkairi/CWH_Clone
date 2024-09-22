@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="shortcut icon" href="static/img/channel-logo.webp" type="image/x-icon">
+  <title>Learn to code online - CodeWithHarry</title>
+</head>
+
+<body>
+  <header class="shadow-md sticky top-0 bg-white">
+    <nav>
+      <div class='flex items-center justify-between py-6 md:px-6 px-3  '>
+        <div class="flex items-center ">
+          <a href="" class="text-purple-700 font-bold text-xl">CodeWithHarry</a>
+          <div class="space-x-1 flex items-center lg:hidden">
+            <button id="mini-menu-btn" class="flex"><span for=""
+                class="capitalize ml-2 text-purple-700 font-semibold">menu</span><img src="static/img/down arrow.png"
+                alt="small-menu"></button>
+            <button class=" "><img class="box-border w-full h-full" src="static/img/night.png" alt="dark mode"></button>
+          </div>
+        </div>
+
+        <ul class=" hidden items-center lg:flex">
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700" href="index.html">home</a>
+          </li>
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700"
+              href="courses.html">course</a></li>
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700"
+              href="tutorial.html">tutorial</a></li>
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700" href="blog.html">blog</a>
+          </li>
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700" href="note.html">notes</a></li>
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700" href="contact.html">contact</a></li>
+          <li><a class=" mr-4 pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700" href="">my gear</a></li>
+          <li><a class=" pb-1 py-2 capitalize hover:border-b-2 hover:border-purple-700" href="">work with us</a>
+          </li>
+          <!-- buttons -->
+          <div class="flex items-center">
+            <button class=" mx-2" href=""><img class=" box-border w-full h-full" src="static/img/night.png"
+                alt="dark mode"></button>
+            <button
+              class="py-2 px-3  mr-2 text-sm bg-purple-700 text-center rounded-lg capitalize text-white hover:bg-purple-800">login</button>
+            <button
+              class="py-2 px-3  mr-2 text-sm bg-purple-700 text-center rounded-lg capitalize text-white hover:bg-purple-800">signup</button>
+          </div>
+        </ul>
+        <div class="items-center sm:flex lg:hidden">
+          <button
+            class="py-2 px-3  mr-2 text-sm bg-purple-700 text-center rounded-lg capitalize text-white hover:bg-purple-800">login</button>
+        </div>
+      </div>
+      <!-- floationg menu -->
+      <div id="mini-menu"
+        class="absolute z-40 flex flex-col justify-center items-center top-[9.3rem] capitalize list-none py-2 space-y-3 bg-purple-100 w-full lg:hidden text-purple-500 font-bold">
+        <li><a href="index.html">home</a></li>
+        <li><a href="courses.html">course</a></li>
+        <details class="text-center">
+          <summary>tutorial</summary>
+          <ul class="bg-purple-200 w-screen font-semibold text-sm">
+
+            <li class="border cursor-pointer py-1"><a class="" href=""></a>HTML</li>
+            <li class="border cursor-pointer py-1"><a class="" href=""></a>css</li>
+            <li class="border cursor-pointer py-1"><a class="" href=""></a>js</li>
+            <li class="border cursor-pointer py-1"><a class="" href=""></a>c</li>
+            <li class="border cursor-pointer py-1"><a class="" href=""></a>C++</li>
+            <li class="border cursor-pointer py-1"><a class="" href=""></a>java</li>
+            <li class="border cursor-pointer py-1"><a class="" href=""></a>python</li>
+            <li class="border cursor-pointer py-1"><a class="" href=""></a>PHP</li>
+            <li class="border cursor-pointer py-1"><a class="" href=""></a>react</li>
+          </ul>
+        </details>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="">notes</a></li>
+        <li><a href="">contact</a></li>
+        <li><a href="">my gear</a></li>
+        <li><a href="">work with us</a></li>
+
+      </div>
+      <hr>
+      <div class="py-4 px-6 flex items-center justify-between">
+        <span class="cursor-pointer"><img class="h-6 w-6" src="static/img/homelogo.png" alt="home "></span>
+        <ul class=" space-x-6 justify-center items-center hidden md:flex">
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="">html</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="">css</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="">js</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="">c</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="">c++</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="">Java</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="">python</a>
+          <li>
+          <li><a
+              class="uppercase font-semibold -ml-5 text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="">php</a></li>
+          <li><a class="uppercase font-semibold text-purple-700 hover:border-b-2 hover:border-purple-700 hover:pb-1"
+              href="">react js</a></li>
+        </ul>
+        <span class="cursor-pointer"><img class="h-6 w-6" src="static/img/search.png" alt="search"></span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h2 class="text-3xl text-purple-700 font-semibold text-center capitalize my-5 lg:my-6">Download Notes by CodeWithHarry</h2>
+
+    <section class="flex items-center justify-center">
+        <div class="grid grid-cols-1 items-center justify-evenly p-4 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2" style="column-gap: 3rem;row-gap: 3rem; ">
+            <!-- cards -->
+            <div class="pb-4 w-72 flex flex-col items-center justify-center shadow-sm border shadow-slate-300 rounded-2xl">
+                <div class="pt-8">
+                    <img class="w-24" src="static/icos/python.webp" alt="ico">
+                </div>
+                <div class="p-4 space-y-3 flex flex-col justify-center items-center">
+                    <h1 class="text-center  text-gray-900 font-semibold pb-2 text-xl capitalize">python notes</h1>
+                    <h4 class="text-sm text-gray-600 text-center capitalize">download notes here</h4>
+                    <button
+                    class="bg-purple-700  capitalize font-semibold text-white px-3  py-2 w-full text-sm rounded-full hover:bg-purple-600">PDF Notes</button>
+                    <button
+                    class="bg-purple-700 capitalize font-semibold text-white px-3  w-full py-2 text-sm rounded-full hover:bg-purple-600">Chapterwise Notes</button>
+                </div>
+            </div>
+            <div class="pb-4 w-72 flex flex-col items-center justify-center  shadow-sm border shadow-slate-300 rounded-2xl">
+                <div class="pt-8">
+                    <img class="w-24" src="static/icos/c.webp" alt="ico">
+                </div>
+                <div class="p-4 space-y-3 flex flex-col justify-center items-center">
+                    <h1 class="text-center  text-gray-900 font-semibold pb-2 text-xl capitalize">c notes</h1>
+                    <h4 class="text-sm text-gray-600 text-center capitalize">download notes here</h4>
+                    <button
+                    class="bg-purple-700  capitalize font-semibold text-white px-3  py-2 w-full text-sm rounded-full hover:bg-purple-600">PDF Notes</button>
+                    <button
+                    class="bg-purple-700 capitalize font-semibold text-white px-3  py-2 tew-full text-sm rounded-full hover:bg-purple-600">Chapterwise Notes</button>
+                </div>
+            </div>
+            <div class="pb-4 w-72 flex flex-col items-center justify-center  shadow-sm border shadow-slate-300 rounded-2xl">
+                <div class="pt-8">
+                    <img class="w-24" src="static/icos/c++.webp" alt="ico">
+                </div>
+                <div class="p-4 space-y-3 flex flex-col justify-center items-center">
+                    <h1 class="text-center  text-gray-900 font-semibold pb-2 text-xl capitalize">c++ notes</h1>
+                    <h4 class="text-sm text-gray-600 text-center capitalize">download notes here</h4>
+                    <button
+                    class="bg-purple-700  capitalize font-semibold text-white px-3  py-2 w-full text-sm rounded-full hover:bg-purple-600">PDF Notes</button>
+                    <button
+                    class="bg-purple-700 capitalize font-semibold text-white px-3  py-2 tew-full text-sm rounded-full hover:bg-purple-600">Chapterwise Notes</button>
+                </div>
+            </div>
+            <div class="pb-4 w-72 flex flex-col items-center justify-center  shadow-sm border shadow-slate-300 rounded-2xl">
+                <div class="pt-8">
+                    <img class="w-24" src="static/icos/java.webp" alt="ico">
+                </div>
+                <div class="p-4 space-y-3 flex flex-col justify-center items-center">
+                    <h1 class="text-center  text-gray-900 font-semibold pb-2 text-xl capitalize">java notes</h1>
+                    <h4 class="text-sm text-gray-600 text-center capitalize">download notes here</h4>
+                    <button
+                    class="bg-purple-700  capitalize font-semibold text-white px-3  py-2 w-full text-sm rounded-full hover:bg-purple-600">PDF Notes</button>
+                    <button
+                    class="bg-purple-700 capitalize font-semibold text-white px-3  py-2 tew-full text-sm rounded-full hover:bg-purple-600">Chapterwise Notes</button>
+                </div>
+            </div>
+            <div class="pb-4 w-72 flex flex-col items-center justify-center  shadow-sm border shadow-slate-300 rounded-2xl">
+                <div class="pt-8">
+                    <img class="w-24" src="static/icos/html.webp" alt="ico">
+                </div>
+                <div class="p-4 space-y-3 flex flex-col justify-center items-center">
+                    <h1 class="text-center  text-gray-900 font-semibold pb-2 text-xl capitalize">HTML notes</h1>
+                    <h4 class="text-sm text-gray-600 text-center capitalize">download notes here</h4>
+                    <button
+                    class="bg-purple-700  capitalize font-semibold text-white px-3  py-2 w-full text-sm rounded-full hover:bg-purple-600">PDF Notes</button>
+                    <button
+                    class="bg-purple-700 capitalize font-semibold text-white px-3  py-2 tew-full text-sm rounded-full hover:bg-purple-600">Chapterwise Notes</button>
+                </div>
+            </div>
+            <div class="pb-4 w-72 flex flex-col items-center justify-center  shadow-sm border shadow-slate-300 rounded-2xl">
+                <div class="pt-8">
+                    <img class="w-24" src="static/icos/css.webp" alt="ico">
+                </div>
+                <div class="p-4 space-y-3 flex flex-col justify-center items-center">
+                    <h1 class="text-center  text-gray-900 font-semibold pb-2 text-xl capitalize">CSS notes</h1>
+                    <h4 class="text-sm text-gray-600 text-center capitalize">download notes here</h4>
+                    <button
+                    class="bg-purple-700  capitalize font-semibold text-white px-3  py-2 w-full text-sm rounded-full hover:bg-purple-600">PDF Notes</button>
+                    <button
+                    class="bg-purple-700 capitalize font-semibold text-white px-3  py-2 tew-full text-sm rounded-full hover:bg-purple-600">Chapterwise Notes</button>
+                </div>
+            </div>
+            <div class="pb-4 w-72 flex flex-col items-center justify-center  shadow-sm border shadow-slate-300 rounded-2xl">
+                <div class="pt-8">
+                    <img class="w-24" src="static/icos/js.webp" alt="ico">
+                </div>
+                <div class="p-4 space-y-3 flex flex-col justify-center items-center">
+                    <h1 class="text-center  text-gray-900 font-semibold pb-2 text-xl capitalize">JavaScript notes</h1>
+                    <h4 class="text-sm text-gray-600 text-center capitalize">download notes here</h4>
+                    <button
+                    class="bg-purple-700  capitalize font-semibold text-white px-3  py-2 w-full text-sm rounded-full hover:bg-purple-600">PDF Notes</button>
+                    <button
+                    class="bg-purple-700 capitalize font-semibold text-white px-3  py-2 tew-full text-sm rounded-full hover:bg-purple-600">Chapterwise Notes</button>
+                </div>
+            </div>
+            <div class="pb-4 w-72 flex flex-col items-center justify-center  shadow-sm border shadow-slate-300 rounded-2xl">
+                <div class="pt-8">
+                    <img class="w-24" src="static/icos/php.webp" alt="ico">
+                </div>
+                <div class="p-4 space-y-3 flex flex-col justify-center items-center">
+                    <h1 class="text-center  text-gray-900 font-semibold pb-2 text-xl capitalize">PHP notes</h1>
+                    <h4 class="text-sm text-gray-600 text-center capitalize">download notes here</h4>
+                    <button
+                    class="bg-purple-700  capitalize font-semibold text-white px-3  py-2 w-full text-sm rounded-full hover:bg-purple-600">PDF Notes</button>
+                    <button
+                    class="bg-purple-700 capitalize font-semibold text-white px-3  py-2 tew-full text-sm rounded-full hover:bg-purple-600">Chapterwise Notes</button>
+                </div>
+            </div>
+          </div>  
+        </div>
+    </section>
+  </main>
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="static/img/channel-logo.webp" alt="channel-logo">
+        <span class="ml-3 text-xl">CodeWithHarry</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Copyright ©
+        2022 CodeWithHarry.com
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+
+    <script type="text/javascript" src="static/js/main.js"></script>
+    <script type="text/javascript" src="static/js/menu.js"></script>
+  </footer>
+
+</body>
+
+</html>
